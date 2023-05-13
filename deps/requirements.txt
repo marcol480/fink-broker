@@ -9,12 +9,10 @@ avro-python3
 Cython
 fastavro==1.6.0
 pyarrow==9.0.0
-codecov
-slackclient
 astropy
 astroquery
 fink_filters>=3.5
-fink-science>=3.8.0
+git+https://github.com/astrolabsoftware/fink-science@3.13.0
 fink-utils>=0.8.0
 scipy
 scikit-learn==1.0.2
@@ -22,3 +20,5 @@ scikit-image
 healpy
 fink-tns>=0.6
 tensorflow_addons
+slack_sdk
+aiohttp
